@@ -7,9 +7,9 @@ const router = express.Router()
 
 router.get('/', log, getReviews)
 router.get('/:id', log, getReview)
-router.post('/', log, requireAuth, addReview)
-router.put('/:id', requireAuth, updateReview)
-router.delete('/:id', requireAuth, requireAdmin, deleteReview)
+router.post('/', log, addReview)
+router.put('/:id', updateReview)
+router.delete('/:id', deleteReview)
 
 const reviewRoutes = router
 export default reviewRoutes

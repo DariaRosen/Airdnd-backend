@@ -1,15 +1,19 @@
+// services/booking.service.js
 import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
+import { ObjectId } from 'mongodb'   // ← חדש
 
 export const bookingService = {
   add,
   getById,
   update,
   remove,
-  query
+  query,
 }
 
 const ALLOWED_STATUS = ['Pending', 'Paid', 'Cancelled', 'Completed']
+
+const toId = str => ObjectId.createFromHexString(str) // ← כמו home
 
 const toTs = d => {
   const ts = Date.parse(d)
@@ -111,9 +115,10 @@ async function query(filterBy = {}) {
 async function getById(id) {
   try {
     const col = await dbService.getCollection('booking')
-    const booking = await col.findOne({ _id: dbService.toObjectId(id) })
+    const booking = await col.findOne({ _id: toId(id) }) // ← בלי dbService.toObjectId
     return sanitizeOut(booking)
   } catch (err) {
+    logger.error(`while finding booking ${id}`, err)
     throw err
   }
 }
@@ -124,9 +129,9 @@ async function add(booking) {
     const { inTs, outTs, totalPrice } = computeTotal(booking)
 
     const doc = {
-      home_id: booking.home_id,     // ← string
-      guest_id: booking.guest_id,   // ← string
-      host_id: booking.host_id,     // ← string
+      home_id: booking.home_id,
+      guest_id: booking.guest_id,
+      host_id: booking.host_id,
       checkIn: booking.checkIn,
       checkOut: booking.checkOut,
       checkInAt: inTs,
@@ -151,13 +156,18 @@ async function add(booking) {
 
 async function update(booking) {
   try {
-    const _id = dbService.toObjectId(booking._id)
-    if (!_id) throw new Error('bad id')
-
+    const _id = toId(booking._id) // ← כמו home
     const set = {}
+
     if (typeof booking.status === 'string') set.status = booking.status
-    if (booking.checkIn || booking.checkOut || booking.pricePerNight !== undefined || booking.discount !== undefined || booking.tax !== undefined) {
-      const merged = { ...booking }
+
+    if (
+      booking.checkIn !== undefined ||
+      booking.checkOut !== undefined ||
+      booking.pricePerNight !== undefined ||
+      booking.discount !== undefined ||
+      booking.tax !== undefined
+    ) {
       const { inTs, outTs, totalPrice } = computeTotal({
         checkIn: booking.checkIn ?? booking._checkInFallback,
         checkOut: booking.checkOut ?? booking._checkOutFallback,
@@ -165,8 +175,8 @@ async function update(booking) {
         discount: booking.discount ?? booking._discFallback,
         tax: booking.tax ?? booking._taxFallback
       })
-      if (booking.checkIn) { set.checkIn = booking.checkIn, set.checkInAt = inTs }
-      if (booking.checkOut) { set.checkOut = booking.checkOut, set.checkOutAt = outTs }
+      if (booking.checkIn !== undefined) { set.checkIn = booking.checkIn, set.checkInAt = inTs }
+      if (booking.checkOut !== undefined) { set.checkOut = booking.checkOut, set.checkOutAt = outTs }
       if (booking.pricePerNight !== undefined) set.pricePerNight = Number(booking.pricePerNight)
       if (booking.discount !== undefined) set.discount = Number(booking.discount)
       if (booking.tax !== undefined) set.tax = Number(booking.tax)
@@ -185,10 +195,10 @@ async function update(booking) {
 
 async function remove(bookingId) {
   try {
-    const _id = dbService.toObjectId(bookingId)
-    if (!_id) throw new Error('bad id')
+    const _id = toId(bookingId) // ← כמו home
     const col = await dbService.getCollection('booking')
     await col.deleteOne({ _id })
+    return bookingId
   } catch (err) {
     logger.error(`cannot remove booking ${bookingId}`, err)
     throw err

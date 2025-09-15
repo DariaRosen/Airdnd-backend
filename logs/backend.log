@@ -848,3 +848,139 @@
 14.9.2025, 20:02:44 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
 14.9.2025, 20:02:44 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
 14.9.2025, 20:02:44 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 10:48:50 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 10:48:52 - INFO - /api/booking | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 10:48:55 - ERROR - Failed to get booking | TypeError: dbService.toObjectId is not a function
+15.9.2025, 10:49:38 - INFO - /api/booking | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 10:49:38 - ERROR - Failed to get booking | TypeError: dbService.toObjectId is not a function
+15.9.2025, 10:52:53 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 10:52:57 - INFO - /api/booking | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 10:52:59 - ERROR - Failed to get booking | TypeError: dbService.toObjectId is not a function
+15.9.2025, 10:53:26 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 10:53:44 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 10:53:48 - INFO - /api/booking | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 10:53:50 - ERROR - Failed to get booking | TypeError: dbService.toObjectId is not a function
+15.9.2025, 10:54:26 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 10:54:30 - INFO - /api/booking | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 10:54:32 - ERROR - Failed to get booking | TypeError: dbService.toObjectId is not a function
+15.9.2025, 10:57:58 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 10:58:03 - INFO - /api/booking | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 10:59:42 - INFO - /api/home | GET |  | {}
+15.9.2025, 10:59:42 - DEBUG - auth.service - login with username: avi
+15.9.2025, 10:59:42 - DEBUG - auth.service - login with username: avi
+15.9.2025, 10:59:43 - INFO - /api/home | GET |  | {}
+15.9.2025, 10:59:43 - INFO - User login:  | {"_id":"68c242e0ac0d57e02713467e","firstName":"Avi","lastName":"Nissim","username":"avi","email":"avi@host.com","phone":"0549876543","imgUrl":"","favorites":["Fo7IG9","Lm3BR4","gV1","Rk8MN2"],"searching_history":[],"hosting":2,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1757511065/Capture_xbtv4j.jpg","createdAt":1587420800000}
+15.9.2025, 10:59:43 - INFO - /api/home | GET |  | {}
+15.9.2025, 10:59:43 - DEBUG - auth.service - login with username: avi
+15.9.2025, 10:59:43 - DEBUG - auth.service - login with username: avi
+15.9.2025, 10:59:43 - INFO - /api/home | GET |  | {}
+15.9.2025, 10:59:44 - INFO - User login:  | {"_id":"68c242e0ac0d57e02713467e","firstName":"Avi","lastName":"Nissim","username":"avi","email":"avi@host.com","phone":"0549876543","imgUrl":"","favorites":["Fo7IG9","Lm3BR4","gV1","Rk8MN2"],"searching_history":[],"hosting":2,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1757511065/Capture_xbtv4j.jpg","createdAt":1587420800000}
+15.9.2025, 10:59:45 - INFO - User login:  | {"_id":"68c242e0ac0d57e02713467e","firstName":"Avi","lastName":"Nissim","username":"avi","email":"avi@host.com","phone":"0549876543","imgUrl":"","favorites":["Fo7IG9","Lm3BR4","gV1","Rk8MN2"],"searching_history":[],"hosting":2,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1757511065/Capture_xbtv4j.jpg","createdAt":1587420800000}
+15.9.2025, 10:59:45 - INFO - User login:  | {"_id":"68c242e0ac0d57e02713467e","firstName":"Avi","lastName":"Nissim","username":"avi","email":"avi@host.com","phone":"0549876543","imgUrl":"","favorites":["Fo7IG9","Lm3BR4","gV1","Rk8MN2"],"searching_history":[],"hosting":2,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1757511065/Capture_xbtv4j.jpg","createdAt":1587420800000}
+15.9.2025, 11:00:09 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:00:11 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:00:11 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:00:11 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:00:18 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:00:18 - DEBUG - auth.service - login with username: avi
+15.9.2025, 11:00:18 - DEBUG - auth.service - login with username: avi
+15.9.2025, 11:00:18 - INFO - User login:  | {"_id":"68c242e0ac0d57e02713467e","firstName":"Avi","lastName":"Nissim","username":"avi","email":"avi@host.com","phone":"0549876543","imgUrl":"","favorites":["Fo7IG9","Lm3BR4","gV1","Rk8MN2"],"searching_history":[],"hosting":2,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1757511065/Capture_xbtv4j.jpg","createdAt":1587420800000}
+15.9.2025, 11:00:18 - INFO - User login:  | {"_id":"68c242e0ac0d57e02713467e","firstName":"Avi","lastName":"Nissim","username":"avi","email":"avi@host.com","phone":"0549876543","imgUrl":"","favorites":["Fo7IG9","Lm3BR4","gV1","Rk8MN2"],"searching_history":[],"hosting":2,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1757511065/Capture_xbtv4j.jpg","createdAt":1587420800000}
+15.9.2025, 11:00:18 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:03:32 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:03:43 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:03:56 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:04:11 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:04:43 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:07:13 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:07:16 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:07:31 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:07:32 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:07:35 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 11:07:35 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 11:07:36 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 11:13:45 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:15:23 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:15:24 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:15:26 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:17:34 - INFO - /api/booking | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 11:17:41 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:17:42 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:17:44 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 11:17:44 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 11:17:45 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 11:19:00 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:27:55 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:27:55 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:27:58 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:29:48 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:29:52 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:29:53 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:30:06 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:31:20 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 11:36:05 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:36:06 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:36:09 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:36:12 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb6d"}
+15.9.2025, 11:36:19 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:36:20 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:36:22 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 11:36:35 - INFO - /api/home | GET |  | {}
+15.9.2025, 11:36:37 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:38:26 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:38:26 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:38:27 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:39:28 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:39:29 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:39:29 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:39:34 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:39:34 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:39:34 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:40:05 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:40:06 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:40:06 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:40:13 - INFO - /api/review | GET |  | {"id":"68c6bbca825caaaaa597a29d"}
+15.9.2025, 11:40:30 - INFO - /api/review | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:41:14 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:41:14 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:41:15 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:41:23 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:41:23 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:41:23 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:42:50 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:42:50 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:42:53 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:42:59 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:43:02 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:44:46 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 11:44:46 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:44:46 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:55:08 - INFO - /api/review | GET |  | {}
+15.9.2025, 11:58:17 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:00:58 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:00:58 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 12:01:00 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:01:00 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 12:01:02 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:01:02 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:01:52 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb70","guest_id":"guest-9m4Lri","host_id":"68c242e0ac0d57e02713467d","checkIn":"2025-09-23","checkOut":"2025-09-25","pricePerNight":720,"discount":0,"tax":0,"status":"Pending"} | {}
+15.9.2025, 12:01:52 - INFO - /api/home | PUT | {"title":"Charming London Flat","description":"Bright and spacious flat in the heart of London","price":720,"capacity":4,"rooms":2,"beds":2,"bathrooms":1,"type":"apartment","imgUrls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753341353/f795f7a9-3ec6-486e-9216-736cb043b911_zzecae.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341365/402839fd-73e6-4b1f-873a-f7fb293bac6d_e5u5m2.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341357/ee4039d0-1459-4379-94d1-a1057fb21200_yfobhy.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619320/mjnbg_et7gkr.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619325/dthuki_ayfam2.jpg"],"rating":4.88,"numberOfRaters":75,"addedToWishlist":23,"guestFavorite":true,"location":{"country":"UK","city":"London","address":"Baker St 221B, London","lat":51.5238,"lng":-0.1586},"amenities":["WiFi","Kitchen","Washer","Heating"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox.","Second main":"Walkable area","Second sub":"This area is easy to get around.","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay."},"unavailableDates":["121125","131125","141125","151125","230925","240925","250925"],"lastSearchValue":""} | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 12:02:11 - INFO - /api/home | GET |  | {}
+15.9.2025, 12:02:12 - INFO - /api/home | GET |  | {}
+15.9.2025, 12:02:20 - INFO - /api/home | GET |  | {}
+15.9.2025, 12:02:21 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 12:02:21 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:02:22 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:02:29 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb70","guest_id":"guest-6ykg2a","host_id":"host-anon","checkIn":"2025-09-16","checkOut":"2025-09-18","pricePerNight":720,"discount":0,"tax":0,"status":"Pending"} | {}
+15.9.2025, 12:02:29 - INFO - /api/home | PUT | {"title":"Charming London Flat","description":"Bright and spacious flat in the heart of London","price":720,"capacity":4,"rooms":2,"beds":2,"bathrooms":1,"type":"apartment","imgUrls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753341353/f795f7a9-3ec6-486e-9216-736cb043b911_zzecae.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341365/402839fd-73e6-4b1f-873a-f7fb293bac6d_e5u5m2.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341357/ee4039d0-1459-4379-94d1-a1057fb21200_yfobhy.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619320/mjnbg_et7gkr.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619325/dthuki_ayfam2.jpg"],"rating":4.88,"numberOfRaters":75,"addedToWishlist":23,"guestFavorite":true,"location":{"country":"UK","city":"London","address":"Baker St 221B, London","lat":51.5238,"lng":-0.1586},"amenities":["WiFi","Kitchen","Washer","Heating"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox.","Second main":"Walkable area","Second sub":"This area is easy to get around.","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay."},"unavailableDates":["121125","131125","141125","151125","230925","240925","250925","160925","170925","180925"],"lastSearchValue":""} | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 12:02:34 - INFO - /api/home | GET |  | {}
+15.9.2025, 12:02:34 - INFO - /api/home | GET |  | {}
+15.9.2025, 12:02:39 - INFO - /api/home | GET |  | {}
+15.9.2025, 12:02:40 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 12:02:40 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:02:40 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:07:28 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 12:07:28 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:07:29 - INFO - /api/review | GET |  | {}
+15.9.2025, 12:07:33 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb70","guest_id":"guest-qz4eqn","host_id":"host-anon","checkIn":"2025-10-02","checkOut":"2025-10-03","pricePerNight":720,"discount":0,"tax":0,"status":"Pending"} | {}
+15.9.2025, 12:07:35 - INFO - /api/home | PUT | {"title":"Charming London Flat","description":"Bright and spacious flat in the heart of London","price":720,"capacity":4,"rooms":2,"beds":2,"bathrooms":1,"type":"apartment","imgUrls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753341353/f795f7a9-3ec6-486e-9216-736cb043b911_zzecae.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341365/402839fd-73e6-4b1f-873a-f7fb293bac6d_e5u5m2.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341357/ee4039d0-1459-4379-94d1-a1057fb21200_yfobhy.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619320/mjnbg_et7gkr.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619325/dthuki_ayfam2.jpg"],"rating":4.88,"numberOfRaters":75,"addedToWishlist":23,"guestFavorite":true,"location":{"country":"UK","city":"London","address":"Baker St 221B, London","lat":51.5238,"lng":-0.1586},"amenities":["WiFi","Kitchen","Washer","Heating"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox.","Second main":"Walkable area","Second sub":"This area is easy to get around.","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay."},"unavailableDates":["121125","131125","141125","151125","230925","240925","250925","160925","170925","180925","021025","031025"],"lastSearchValue":""} | {"id":"68c2565f7ef75d132ee4eb70"}

@@ -3,10 +3,18 @@ import { MongoClient } from 'mongodb'
 import { config } from '../config/index.js'
 import { logger } from './logger.service.js'
 // console.log('config:', config)
+import { ObjectId } from 'mongodb'
+
 
 export const dbService = { getCollection }
 
 var dbConn = null
+export function toObjectId(id) {
+  if (id instanceof ObjectId) return id
+  if (typeof id === 'string' && ObjectId.isValid(id)) return new ObjectId(id)
+  throw new Error('bad id')
+}
+
 
 async function getCollection(collectionName) {
     try { 
