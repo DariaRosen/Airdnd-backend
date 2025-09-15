@@ -1000,3 +1000,25 @@
 15.9.2025, 18:51:38 - INFO - /api/home | GET |  | {}
 15.9.2025, 18:51:39 - INFO - /api/home | GET |  | {}
 15.9.2025, 18:52:01 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 19:12:35 - INFO - Server is running on: http://localhost:3030/
+15.9.2025, 19:12:38 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:12:40 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:12:45 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+15.9.2025, 19:12:46 - INFO - /api/review | GET |  | {}
+15.9.2025, 19:12:47 - INFO - /api/review | GET |  | {}
+15.9.2025, 19:12:56 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:12:58 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 19:12:58 - INFO - /api/review | GET |  | {}
+15.9.2025, 19:12:58 - INFO - /api/review | GET |  | {}
+15.9.2025, 19:13:19 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:13:20 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:13:26 - INFO - /api/booking | GET |  | {}
+15.9.2025, 19:14:08 - INFO - /api/booking | GET |  | {}
+15.9.2025, 19:14:13 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:14:14 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:14:20 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:14:22 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:14:24 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:14:25 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:14:33 - INFO - /api/home | GET |  | {}
+15.9.2025, 19:14:52 - INFO - /api/home | GET |  | {}
