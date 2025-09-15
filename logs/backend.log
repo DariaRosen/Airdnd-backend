@@ -984,3 +984,19 @@
 15.9.2025, 12:07:29 - INFO - /api/review | GET |  | {}
 15.9.2025, 12:07:33 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb70","guest_id":"guest-qz4eqn","host_id":"host-anon","checkIn":"2025-10-02","checkOut":"2025-10-03","pricePerNight":720,"discount":0,"tax":0,"status":"Pending"} | {}
 15.9.2025, 12:07:35 - INFO - /api/home | PUT | {"title":"Charming London Flat","description":"Bright and spacious flat in the heart of London","price":720,"capacity":4,"rooms":2,"beds":2,"bathrooms":1,"type":"apartment","imgUrls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753341353/f795f7a9-3ec6-486e-9216-736cb043b911_zzecae.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341365/402839fd-73e6-4b1f-873a-f7fb293bac6d_e5u5m2.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753341357/ee4039d0-1459-4379-94d1-a1057fb21200_yfobhy.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619320/mjnbg_et7gkr.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753619325/dthuki_ayfam2.jpg"],"rating":4.88,"numberOfRaters":75,"addedToWishlist":23,"guestFavorite":true,"location":{"country":"UK","city":"London","address":"Baker St 221B, London","lat":51.5238,"lng":-0.1586},"amenities":["WiFi","Kitchen","Washer","Heating"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox.","Second main":"Walkable area","Second sub":"This area is easy to get around.","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay."},"unavailableDates":["121125","131125","141125","151125","230925","240925","250925","160925","170925","180925","021025","031025"],"lastSearchValue":""} | {"id":"68c2565f7ef75d132ee4eb70"}
+15.9.2025, 18:41:40 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:41:42 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:42:13 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:42:14 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:46:23 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:46:24 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:46:27 - INFO - /api/booking | GET |  | {}
+15.9.2025, 18:46:50 - INFO - /api/booking | GET |  | {}
+15.9.2025, 18:47:02 - INFO - /api/booking | GET |  | {}
+15.9.2025, 18:47:03 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:47:03 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:47:15 - INFO - /api/booking | GET |  | {}
+15.9.2025, 18:49:24 - INFO - /api/home | POST | {"title":"test123","description":"321","price":"","capacity":"","rooms":"","beds":"","bathrooms":"","type":"house","imgUrls":[{},{},{},{},{}],"rating":0,"numberOfRaters":0,"guestFavorite":false,"location":{"country":"israel","city":"tel aviv","address":"hacarmel","lat":"123","lng":"321"},"amenities":["WiFi","Heating","Kitchenette","Carbon monoxide alarm","High chair","Terrace","Hot tub","Lockbox"]} | {}
+15.9.2025, 18:51:38 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:51:39 - INFO - /api/home | GET |  | {}
+15.9.2025, 18:52:01 - INFO - Server is running on: http://localhost:3030/
