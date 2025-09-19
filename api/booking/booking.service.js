@@ -85,8 +85,6 @@ const buildCriteria = f => {
 }
 
 async function query(filterBy = {}) {
-  const page = Math.max(+filterBy.page || 1, 1)
-  const limit = Math.min(Math.max(+filterBy.limit || 20, 1), 100)
   const sortBy = filterBy.sortBy || 'createdAt'
   const sortDir = filterBy.sortDir === 'asc' ? 1 : -1
 
@@ -97,20 +95,26 @@ async function query(filterBy = {}) {
 
   try {
     const col = await dbService.getCollection('booking')
-    const cursor = col.find(criteria).sort(sort).skip((page - 1) * limit).limit(limit)
-    const [items, total] = await Promise.all([cursor.toArray(), col.countDocuments(criteria)])
+    const cursor = col.find(criteria).sort(sort)
+
+    const [items, total] = await Promise.all([
+      cursor.toArray(),
+      col.countDocuments(criteria)
+    ])
+
     return {
       items: items.map(sanitizeOut),
-      page,
-      limit,
+      page: 1,
+      limit: total, // no real limit, return everything
       total,
-      pages: Math.ceil(total / limit)
+      pages: 1
     }
   } catch (err) {
     logger.error('cannot find bookings', err)
     throw err
   }
 }
+
 
 async function getById(id) {
   try {
