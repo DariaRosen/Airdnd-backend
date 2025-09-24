@@ -34,25 +34,24 @@ if (process.env.NODE_ENV !== 'production') {
   }))
 }
 
-// ALS לכל בקשה
 app.use(setupAsyncLocalStorage)
 
-// API
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/home', homeRoutes)
 app.use('/api/review', reviewRoutes)
 app.use('/api/booking', bookingRoutes)
 
-// סטטי מהתיקייה public בשורש
-app.use(express.static(path.join(__dirname, 'public')))
+// סטטי תחת /Airdnd כדי להתאים ל-base
+app.use('/Airdnd', express.static(path.join(__dirname, 'public')))
 
-// SPA fallback לכל מה שלא מתחיל ב-/api
-app.get(/^\/(?!api).*/, (req, res) => {
+// SPA fallback רק לנתיבים בלי סיומת תחת /Airdnd
+app.get(/^\/Airdnd(?!.*\.).*$/, (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
+// שורש מפנה ל-/Airdnd
+app.get('/', (req, res) => res.redirect('/Airdnd'))
+
 const PORT = process.env.PORT || 3030
-server.listen(PORT, () => {
-  logger.info(`Server is running on http://localhost:${PORT}`)
-})
+server.listen(PORT, () => logger.info(`server on http://localhost:${PORT}/Airdnd`))
