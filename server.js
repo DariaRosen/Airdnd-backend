@@ -30,11 +30,12 @@ if (process.env.NODE_ENV !== 'production') {
       'http://127.0.0.1:5173',
       'http://localhost:5173'
     ],
-    credentials: false
+    credentials: true
   }))
 }
 
-app.all('/*all', setupAsyncLocalStorage)
+// ALS לכל בקשה
+app.use(setupAsyncLocalStorage)
 
 // API
 app.use('/api/auth', authRoutes)
@@ -43,18 +44,15 @@ app.use('/api/home', homeRoutes)
 app.use('/api/review', reviewRoutes)
 app.use('/api/booking', bookingRoutes)
 
-// סטטי תחת prefix /Airdnd → קבצים מתוך public
-app.use('/Airdnd', express.static(path.join(__dirname, 'public')))
+// סטטי מהתיקייה public בשורש
+app.use(express.static(path.join(__dirname, 'public')))
 
-app.get('/', (req, res) => {
-  res.redirect('/Airdnd')
-})
-
-app.get(/^\/Airdnd(?!\/api).*/, (req, res) => {
+// SPA fallback לכל מה שלא מתחיל ב-/api
+app.get(/^\/(?!api).*/, (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
-const port = process.env.PORT || 3030
-server.listen(port, () => {
-  logger.info('Server is running on: ' + `http://localhost:${port}/Airdnd`)
+const PORT = process.env.PORT || 3030
+server.listen(PORT, () => {
+  logger.info(`Server is running on http://localhost:${PORT}`)
 })
