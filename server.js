@@ -45,6 +45,8 @@ app.use('/api/booking', bookingRoutes)
 // סטטי תחת /Airdnd כדי להתאים ל-base
 app.use('/Airdnd', express.static(path.join(__dirname, 'public')))
 
+app.get('/api/health', (req, res) => res.send('ok'))
+
 // SPA fallback רק לנתיבים בלי סיומת תחת /Airdnd
 app.get(/^\/Airdnd(?!.*\.).*$/, (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
