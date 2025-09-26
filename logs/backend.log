@@ -4234,3 +4234,35 @@
 24.9.2025, 12:26:59 - INFO - /api/review | GET |  | {}
 >>>>>>> 6f8117df1d0c5fa80af94365dc2b95dbc857b412
 26.9.2025, 23:26:43 - INFO - server on http://localhost:3030/Airdnd
+27.9.2025, 1:56:41 - INFO - /api/booking | GET |  | {}
+27.9.2025, 1:56:41 - INFO - /api/home | GET |  | {}
+27.9.2025, 1:56:43 - INFO - /api/booking | GET |  | {}
+27.9.2025, 1:56:47 - INFO - /api/booking | GET |  | {}
+27.9.2025, 1:56:48 - INFO - /api/home | GET |  | {}
+27.9.2025, 1:56:53 - INFO - /api/booking | GET |  | {}
+27.9.2025, 1:56:54 - INFO - /api/home | GET |  | {}
+27.9.2025, 1:58:52 - INFO - /api/home | GET |  | {}
+27.9.2025, 1:58:52 - INFO - /api/home | GET |  | {}
+27.9.2025, 1:59:12 - INFO - /api/booking | GET |  | {}
+27.9.2025, 1:59:12 - INFO - /api/home | GET |  | {}
+27.9.2025, 1:59:39 - INFO - /api/booking | GET |  | {}
+27.9.2025, 2:00:32 - INFO - /api/booking | GET |  | {}
+27.9.2025, 2:01:21 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:01:24 - INFO - /api/booking | GET |  | {}
+27.9.2025, 2:01:54 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:02:32 - INFO - /api/booking | GET |  | {}
+27.9.2025, 2:02:32 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:02:36 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:02:36 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:03:14 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:03:23 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb58"}
+27.9.2025, 2:03:23 - INFO - /api/review | GET |  | {}
+27.9.2025, 2:03:23 - INFO - /api/review | GET |  | {}
+27.9.2025, 2:03:30 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:03:30 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:03:46 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb58"}
+27.9.2025, 2:03:46 - INFO - /api/review | GET |  | {}
+27.9.2025, 2:03:46 - INFO - /api/review | GET |  | {}
+27.9.2025, 2:03:52 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:03:52 - INFO - /api/home | GET |  | {}
+27.9.2025, 2:03:56 - INFO - /api/home | GET |  | {}
