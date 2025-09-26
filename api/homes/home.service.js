@@ -82,30 +82,16 @@ async function add(home) {
 async function update(home) {
   try {
     const criteria = { _id: ObjectId.createFromHexString(home._id) }
-    const toSet = {
-      host_id: home.host_id,
-      title: home.title,
-      description: home.description,
-      price: home.price,
-      capacity: home.capacity,
-      rooms: home.rooms,
-      beds: home.beds,
-      bathrooms: home.bathrooms,
-      type: home.type,
-      imgUrls: home.imgUrls,
-      rating: home.rating,
-      numberOfRaters: home.numberOfRaters,
-      addedToWishlist: home.addedToWishlist,
-      guestFavorite: home.guestFavorite,
-      location: home.location,
-      amenities: home.amenities,
-      highlights: home.highlights,
-      unavailableDates: home.unavailableDates,
-      lastSearchValue: home.lastSearchValue
+
+    // Only keep keys that are not undefined
+    const toSet = {}
+    for (const [key, val] of Object.entries(home)) {
+      if (val !== undefined && key !== '_id') toSet[key] = val
     }
+
     const col = await dbService.getCollection('home')
     await col.updateOne(criteria, { $set: toSet })
-    return home
+    return { ...home, ...toSet } // merged result
   } catch (err) {
     logger.error(`cannot update home ${home._id}`, err)
     throw err
