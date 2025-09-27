@@ -4374,3 +4374,31 @@
 27.9.2025, 11:24:18 - INFO - /api/review | GET |  | {}
 27.9.2025, 11:24:22 - INFO - /api/home | GET |  | {}
 27.9.2025, 11:24:22 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:30:33 - INFO - server on http://localhost:3030/Airdnd
+27.9.2025, 11:31:03 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:31:05 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:35:20 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:35:20 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:35:28 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb6d"}
+27.9.2025, 11:35:28 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:35:28 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:35:33 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb6d","guest_id":"guest-iUepuQ","host_id":"68c242e0ac0d57e02713467d ","checkIn":"2025-10-21","checkOut":"2025-10-24","pricePerNight":"752","discount":0,"tax":0,"status":"Pending"} | {}
+27.9.2025, 11:35:33 - INFO - /api/home | PUT | {"title":"Beachfront Retreat TLV","description":"Luxurious beachfront property with stunning sea views. Perfect location! ","price":"752","capacity":5,"rooms":3,"beds":3,"bathrooms":2,"type":"house","img_urls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753340291/c5ada681-1a6a-407f-8caa-1c41ddbd8611_wmtsdg.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340298/1fc52698-cc7b-4d70-9841-c58d2c32faa0_rjotwh.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340295/ac78516d-e2b5-40fb-bd4d-5d0063de07a3_cmujvt.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340304/c9b3d7f6-f1ec-40e3-be57-c7809312cfd0_wueir5.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340301/ca2698c7-c17d-4e02-b52d-958624fcaffb_x3icbi.avif"],"rating":4.85,"number_of_raters":90,"added_to_wishlist":0,"guest_favorite":false,"location":{"country":"Israel","city":"Tel Aviv","address":"HaYarkon St 210, Tel Aviv","lat":"32.0871","lng":"34.7687"},"amenities":["WiFi","TV","Kitchen","Washer"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox","Second main":"Walkable area","Second sub":"This area is easy to get around","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay"},"msgs":[""],"unavailable_dates":["100925","110925","120925","130925","21 10 2025","22 10 2025","23 10 2025","24 10 2025"],"last_search_value":"","createdAt":1753278900219} | {"id":"68c2565f7ef75d132ee4eb6d"}
+27.9.2025, 11:35:41 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:35:41 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:35:47 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:36:01 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:36:03 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:36:32 - INFO - /api/home | POST | {"title":"s","description":"s","price":"","capacity":"","rooms":"","beds":"","bathrooms":"","type":"house","img_urls":[{},{},{},{},{}],"rating":0,"number_of_raters":0,"guest_favorite":false,"location":{"country":"Israel","city":"Arad","address":"a","lat":"","lng":""},"amenities":["WiFi"]} | {}
+27.9.2025, 11:36:35 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:36:35 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:36:37 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:36:37 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:38:28 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb63"}
+27.9.2025, 11:38:28 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:38:28 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:38:32 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:38:32 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:38:33 - INFO - /api/home | GET |  | {}
+27.9.2025, 12:04:21 - INFO - /api/home | GET |  | {}
+27.9.2025, 12:04:21 - INFO - /api/home | GET |  | {}
