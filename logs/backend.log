@@ -4302,3 +4302,75 @@
 27.9.2025, 10:35:37 - INFO - /api/home | GET |  | {}
 27.9.2025, 10:35:38 - INFO - /api/home | GET |  | {}
 27.9.2025, 10:39:27 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:09 - INFO - server on http://localhost:3030/Airdnd
+27.9.2025, 10:48:15 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:16 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:16 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:25 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:26 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:26 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:53 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:54 - INFO - /api/home | GET |  | {}
+27.9.2025, 10:48:54 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:11:57 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb58"}
+27.9.2025, 11:11:57 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:11:57 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:12:08 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb58","guest_id":"guest-bvGxzV","host_id":"68c242e0ac0d57e02713467f","checkIn":"2025-10-14","checkOut":"2025-10-16","pricePerNight":460,"discount":0,"tax":0,"status":"Pending"} | {}
+27.9.2025, 11:12:08 - INFO - /api/home | PUT | {"title":"Rooftop Studio TLV","description":"Studio with a rooftop terrace in the heart of Tel Aviv. This cozy studio is perfect for solo travelers or couples looking for a central location. You will enjoy stunning views of the city from the private rooftop terrace. The space is filled with natural light, making it feel bright and welcoming. It comes fully equipped with modern amenities including WiFi, AC, and a smart TV. The kitchen has everything you need to prepare your meals, from a toaster to a refrigerator. The neighborhood is walkable, with cafes, restaurants, and shops just steps away. Public transport is easily accessible, making it convenient to explore the rest of Tel Aviv. Guests love the comfort of the bed and the cleanliness of the apartment. Whether you are here for business or leisure, this studio offers a relaxing and memorable stay.","price":460,"capacity":2,"rooms":1,"beds":1,"bathrooms":1,"type":"studio","img_urls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753904604/Capture_bru3hk.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753615079/Capture_nenrjz.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753615080/Capturesdsd_kdx0nj.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753615079/gbdf_gxx58w.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753044824/pexels-almapapi-2396108_iofzgq.jpg"],"rating":4.79,"number_of_raters":54,"added_to_wishlist":0,"guest_favorite":true,"location":{"country":"Israel","city":"Tel Aviv-Yafo","address":"Sheinkin St 45, Tel Aviv-Yafo","lat":32.0663,"lng":34.7741},"amenities":["WiFi","AC","Toaster","Refrigerator","Smart TV","Safe","Fire extinguisher","First aid kit","High chair","Baby bath","Pets allowed","Hammock","Bikes","Free parking","Gym","Fireplace","Shampoo","Self check-in"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox.","Second main":"Walkable area","Second sub":"This area is easy to get around.","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay."},"msgs":[],"unavailable_dates":["240825","260825","121025","150925","270925","220825","110925","031025","070825","180825","14 10 2025","15 10 2025","16 10 2025"],"last_search_value":"","createdAt":1753278900219} | {"id":"68c2565f7ef75d132ee4eb58"}
+27.9.2025, 11:12:17 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:12:17 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:12:45 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:12:46 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:12:46 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:12:46 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:12:46 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:12:46 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:12:46 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:12:52 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:12:52 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:12:55 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb62"}
+27.9.2025, 11:12:55 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:12:55 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:13:13 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb62","guest_id":"guest-nvQslV","host_id":"68c242e0ac0d57e02713467f","checkIn":"2025-10-09","checkOut":"2025-10-10","pricePerNight":650,"discount":0,"tax":0,"status":"Pending"} | {}
+27.9.2025, 11:13:13 - INFO - /api/home | PUT | {"title":"Old North Family Flat","description":"Spacious family apartment in the heart of Tel Aviv’s Old North. Bright and airy rooms with modern furnishings and plenty of natural light. Fully equipped kitchen perfect for cooking family meals. Comfortable bedrooms with high-quality linens and extra pillows. Living area with cozy sofa and smart TV for relaxing evenings. Balcony with city views, ideal for morning coffee or evening drinks. Located close to cafes, restaurants, parks, and the beautiful Mediterranean promenade.","price":650,"capacity":5,"rooms":4,"beds":4,"bathrooms":4,"type":"apartment","img_urls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753044812/pexels-keeganjchecks-12715463_pwyo1a.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753044797/pexels-heyho-6207945_q8qana.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753616152/Capture_ohawav.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753044784/pexels-ilya-shakir-1278798-2440471_frzlj2.jpg","https://res.cloudinary.com/dool6mmp1/image/upload/v1753044771/pexels-fotoaibe-1571462_jmghnh.jpg"],"rating":4.77,"number_of_raters":85,"added_to_wishlist":123,"guest_favorite":false,"location":{"country":"Israel","city":"Tel Aviv-Yafo","address":"Weizmann St 15, Tel Aviv-Yafo","lat":"32.0937","lng":"34.7879"},"amenities":["WiFi","Hammock","Self check-in"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox.","Second main":"Walkable area","Second sub":"This area is easy to get around.","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay."},"msgs":[],"unavailable_dates":["131025","150925","120925","210925","021025","200925","151025","060825","121025","031025","09 10 2025","10 10 2025"],"last_search_value":"","createdAt":1753278900219} | {"id":"68c2565f7ef75d132ee4eb62"}
+27.9.2025, 11:14:23 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:14:23 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:14:35 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb6d"}
+27.9.2025, 11:14:35 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:14:35 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:14:42 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb6d","guest_id":"guest-aOBwka","host_id":"68c242e0ac0d57e02713467d ","checkIn":"2025-10-08","checkOut":"2025-10-10","pricePerNight":"752","discount":0,"tax":0,"status":"Pending"} | {}
+27.9.2025, 11:14:42 - INFO - /api/home | PUT | {"title":"Beachfront Retreat TLV","description":"Luxurious beachfront property with stunning sea views. Perfect location! ","price":"752","capacity":5,"rooms":3,"beds":3,"bathrooms":2,"type":"house","img_urls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753340291/c5ada681-1a6a-407f-8caa-1c41ddbd8611_wmtsdg.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340298/1fc52698-cc7b-4d70-9841-c58d2c32faa0_rjotwh.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340295/ac78516d-e2b5-40fb-bd4d-5d0063de07a3_cmujvt.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340304/c9b3d7f6-f1ec-40e3-be57-c7809312cfd0_wueir5.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753340301/ca2698c7-c17d-4e02-b52d-958624fcaffb_x3icbi.avif"],"rating":4.85,"number_of_raters":90,"added_to_wishlist":0,"guest_favorite":false,"location":{"country":"Israel","city":"Tel Aviv","address":"HaYarkon St 210, Tel Aviv","lat":"32.0871","lng":"34.7687"},"amenities":["WiFi","TV","Kitchen","Washer"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox","Second main":"Walkable area","Second sub":"This area is easy to get around","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay"},"msgs":[""],"unavailable_dates":["100925","110925","120925","130925","08 10 2025","09 10 2025","10 10 2025"],"last_search_value":"","createdAt":1753278900219} | {"id":"68c2565f7ef75d132ee4eb6d"}
+27.9.2025, 11:14:45 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:14:46 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:14:53 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:14:53 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:14:53 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:14:53 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:14:53 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:14:53 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:14:53 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:14:58 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:21:25 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:21:25 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:21:32 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb67"}
+27.9.2025, 11:21:32 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:21:33 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:21:40 - INFO - /api/booking | POST | {"home_id":"68c2565f7ef75d132ee4eb67","guest_id":"guest-dXd6BR","host_id":"68c242e0ac0d57e02713467d ","checkIn":"2025-10-21","checkOut":"2025-10-24","pricePerNight":488,"discount":0,"tax":0,"status":"Pending"} | {}
+27.9.2025, 11:21:40 - INFO - /api/home | PUT | {"title":"Apartment in Gran Vía","description":"New apartment with a modern and cozy design","price":488,"capacity":4,"rooms":3,"beds":3,"bathrooms":1,"type":"apartment","img_urls":["https://res.cloudinary.com/dool6mmp1/image/upload/v1753302043/f7f55367-00e9-4bb6-8604-e23fcacb41c8_bmftxy.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753302040/cd9d7b7b-8416-40c6-b4fa-cef9f7dc23f2_xigouy.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753302039/d7711155-bbf8-4829-a11f-c78d5a685b48_sksux6.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753302036/58c1c774-4888-45fa-86da-6c53d63b0206_iub7aa.avif","https://res.cloudinary.com/dool6mmp1/image/upload/v1753302036/066b736b-93ce-4224-a6e9-5d22f524db98_xyxpe3.avif"],"rating":4.76,"number_of_raters":50,"added_to_wishlist":0,"guest_favorite":true,"location":{"country":"Spain","city":"Madrid","address":"Gran Vía 50, Madrid","lat":40.4203,"lng":-3.706},"amenities":["WiFi","Kitchen","Washer","AC","TV"],"highlights":{"First main":"Self check-in","First sub":"Check yourself in with the lockbox.","Second main":"Walkable area","Second sub":"This area is easy to get around.","Third main":"Furry friends welcome","Third sub":"Bring your pets along for the stay."},"msgs":[],"unavailable_dates":["12 01 2026","13 01 2026","14 01 2026","15 01 2026","16 01 2026","17 01 2026","21 10 2025","22 10 2025","23 10 2025","24 10 2025"],"last_search_value":"","createdAt":1753278900219} | {"id":"68c2565f7ef75d132ee4eb67"}
+27.9.2025, 11:21:43 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:21:44 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:21:51 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:21:51 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:21:54 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:22:08 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:22:21 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:23:12 - INFO - /api/home | POST | {"title":"a","description":"a","price":"","capacity":"","rooms":"","beds":"","bathrooms":"","type":"house","img_urls":[{},{},{},{},{}],"rating":0,"number_of_raters":0,"guest_favorite":false,"location":{"country":"Israel","city":"Arad","address":"a","lat":"","lng":""},"amenities":["WiFi","Smoke Alarm","EV charger"]} | {}
+27.9.2025, 11:23:14 - INFO - /api/booking | GET |  | {}
+27.9.2025, 11:23:14 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:23:50 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:23:50 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:24:17 - INFO - /api/home | GET |  | {"id":"68c2565f7ef75d132ee4eb58"}
+27.9.2025, 11:24:18 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:24:18 - INFO - /api/review | GET |  | {}
+27.9.2025, 11:24:22 - INFO - /api/home | GET |  | {}
+27.9.2025, 11:24:22 - INFO - /api/home | GET |  | {}
