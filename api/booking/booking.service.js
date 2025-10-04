@@ -1,30 +1,37 @@
-// services/booking.service.js
 import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
-import { ObjectId } from 'mongodb'   // ← חדש
+import { ObjectId } from 'mongodb'   // Using MongoDB’s ObjectId to work with _id values
 
+// Exported service API
 export const bookingService = {
   add,
   getById,
   update,
   remove,
   query,
+  getHostBookings,
+  getHomeBookings
 }
 
-const ALLOWED_STATUS = ['Pending', 'Paid', 'Cancelled', 'Completed']
+// Valid status values for a booking
+const ALLOWED_STATUS = ['Pending', 'Paid', 'Cancelled by Guest', 'Cancelled by Host', 'New']
 
-const toId = str => ObjectId.createFromHexString(str) // ← כמו home
+// Convert string → ObjectId
+const toId = str => ObjectId.createFromHexString(str)
 
+// Convert date string → timestamp (ms since epoch), or null if invalid
 const toTs = d => {
   const ts = Date.parse(d)
   return Number.isFinite(ts) ? ts : null
 }
 
+// Calculate nights between two timestamps (at least 1 night)
 const nightsBetween = (inTs, outTs) => {
   const MS = 24 * 60 * 60 * 1000
   return Math.max(1, Math.round((outTs - inTs) / MS))
 }
 
+// Calculate booking total price (base * nights - discount + tax)
 const computeTotal = b => {
   const inTs = toTs(b.checkIn)
   const outTs = toTs(b.checkOut)
@@ -32,12 +39,16 @@ const computeTotal = b => {
   const base = nights * Number(b.pricePerNight)
   const afterDiscount = base * (1 - Number(b.discount ?? 0))
   const tax = Number(b.tax ?? 0)
+
+  // If a totalPrice is already provided and valid → use it, otherwise compute
   const totalPrice = Number.isFinite(Number(b.totalPrice))
     ? Number(b.totalPrice)
     : Math.round((afterDiscount + tax) * 100) / 100
+
   return { inTs, outTs, totalPrice }
 }
 
+// Validate booking input before saving
 const validate = b => {
   if (typeof b.home_id !== 'string' || !b.home_id) throw new Error('bad home_id')
   if (typeof b.guest_id !== 'string' || !b.guest_id) throw new Error('bad guest_id')
@@ -59,6 +70,7 @@ const validate = b => {
   if (b.status && !ALLOWED_STATUS.includes(b.status)) throw new Error('bad status')
 }
 
+// Normalize a DB booking document into consistent output
 const sanitizeOut = doc => {
   if (!doc) return null
   return {
@@ -69,6 +81,7 @@ const sanitizeOut = doc => {
   }
 }
 
+// Build Mongo query criteria from filterBy object
 const buildCriteria = f => {
   const c = {}
   if (f?.homeId) c.home_id = f.homeId
@@ -76,6 +89,7 @@ const buildCriteria = f => {
   if (f?.hostId) c.host_id = f.hostId
   if (f?.status) c.status = f.status
 
+  // If checkIn + checkOut provided → filter by overlapping dates
   const inTs = toTs(f?.checkIn)
   const outTs = toTs(f?.checkOut)
   if (inTs && outTs && outTs > inTs) {
@@ -84,6 +98,11 @@ const buildCriteria = f => {
   return c
 }
 
+// ==========================
+// CRUD FUNCTIONS
+// ==========================
+
+// GET list of all bookings
 async function query(filterBy = {}) {
   const sortBy = filterBy.sortBy || 'createdAt'
   const sortDir = filterBy.sortDir === 'asc' ? 1 : -1
@@ -105,7 +124,7 @@ async function query(filterBy = {}) {
     return {
       items: items.map(sanitizeOut),
       page: 1,
-      limit: total, // no real limit, return everything
+      limit: total, // no pagination here, just return all
       total,
       pages: 1
     }
@@ -115,11 +134,11 @@ async function query(filterBy = {}) {
   }
 }
 
-
+// GET a single booking by ID
 async function getById(id) {
   try {
     const col = await dbService.getCollection('booking')
-    const booking = await col.findOne({ _id: toId(id) }) // ← בלי dbService.toObjectId
+    const booking = await col.findOne({ _id: toId(id) })
     return sanitizeOut(booking)
   } catch (err) {
     logger.error(`while finding booking ${id}`, err)
@@ -127,6 +146,7 @@ async function getById(id) {
   }
 }
 
+// ADD new booking
 async function add(booking) {
   try {
     validate(booking)
@@ -158,13 +178,15 @@ async function add(booking) {
   }
 }
 
+// UPDATE existing booking
 async function update(booking) {
   try {
-    const _id = toId(booking._id) // ← כמו home
+    const _id = toId(booking._id)
     const set = {}
 
     if (typeof booking.status === 'string') set.status = booking.status
 
+    // If dates/price-related fields changed → recompute totals
     if (
       booking.checkIn !== undefined ||
       booking.checkOut !== undefined ||
@@ -197,9 +219,10 @@ async function update(booking) {
   }
 }
 
+// DELETE booking
 async function remove(bookingId) {
   try {
-    const _id = toId(bookingId) // ← כמו home
+    const _id = toId(bookingId)
     const col = await dbService.getCollection('booking')
     await col.deleteOne({ _id })
     return bookingId
@@ -207,4 +230,13 @@ async function remove(bookingId) {
     logger.error(`cannot remove booking ${bookingId}`, err)
     throw err
   }
+}
+
+async function getHostBookings(hostId) {
+  // Keep hostId as string (your docs store host_id as string)
+  return query({ hostId })
+}
+
+async function getHomeBookings(homeId) {
+  return query({ homeId })
 }
