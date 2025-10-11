@@ -4478,3 +4478,69 @@
 4.10.2025, 15:13:42 - INFO - /api/booking | GET |  | {}
 4.10.2025, 15:13:43 - INFO - /api/booking | GET |  | {}
 4.10.2025, 15:13:46 - INFO - /api/booking | GET |  | {}
+4.10.2025, 15:21:59 - INFO - server on http://localhost:3030/Airdnd
+4.10.2025, 15:22:43 - INFO - /api/booking | GET |  | {}
+4.10.2025, 15:25:01 - INFO - /api/booking | GET |  | {}
+4.10.2025, 15:25:01 - INFO - /api/home | GET |  | {}
+4.10.2025, 15:25:28 - INFO - /api/home | GET |  | {}
+4.10.2025, 15:25:29 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:04 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:05 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:17 - INFO - /api/booking | GET |  | {}
+5.10.2025, 18:16:17 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:23 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:23 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:28 - INFO - /api/booking | GET |  | {}
+5.10.2025, 18:16:28 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:48 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:49 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:16:54 - INFO - /api/booking | GET |  | {}
+5.10.2025, 18:16:55 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:28:18 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:28:18 - INFO - /api/home | GET |  | {}
+5.10.2025, 18:43:55 - INFO - server on http://localhost:3030/Airdnd
+10.10.2025, 14:17:50 - INFO - server on http://localhost:3030/Airdnd
+10.10.2025, 14:18:04 - INFO - /api/home | GET |  | {}
+10.10.2025, 14:18:07 - INFO - /api/home | GET |  | {}
+11.10.2025, 12:00:51 - INFO - server on http://localhost:3030/Airdnd
+11.10.2025, 12:00:57 - INFO - /api/home | GET |  | {}
+11.10.2025, 12:00:59 - INFO - /api/home | GET |  | {}
+11.10.2025, 12:01:16 - INFO - User phone login attempt:  | 0507962021
+11.10.2025, 12:03:28 - INFO - User phone login attempt:  | 0507962021
+11.10.2025, 12:17:53 - INFO - User phone login attempt:  | 0507962021
+11.10.2025, 12:18:22 - INFO - server on http://localhost:3030/Airdnd
+11.10.2025, 12:18:30 - INFO - User phone login attempt:  | 0507962021
+11.10.2025, 12:19:36 - INFO - User phone login attempt:  | 0507962021
+11.10.2025, 12:19:51 - INFO - User phone login attempt:  | 0507962021
+11.10.2025, 12:20:10 - INFO - server on http://localhost:3030/Airdnd
+11.10.2025, 12:20:12 - INFO - User phone login attempt11111111:  | 0507962021
+11.10.2025, 12:20:12 - INFO - aaaaaa
+11.10.2025, 12:27:12 - INFO - User phone login attempt11111111:  | 0507962021
+11.10.2025, 12:27:12 - INFO - aaaaaa
+11.10.2025, 12:27:57 - INFO - server on http://localhost:3030/Airdnd
+11.10.2025, 12:28:01 - INFO - User phone login attempt: | 0507962021
+11.10.2025, 12:28:01 - DEBUG - auth.service - login with phone: 0507962021
+11.10.2025, 12:28:01 - INFO - user.service - getByPhone:  | 0507962021
+11.10.2025, 12:28:03 - ERROR - Failed to login with phone | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+11.10.2025, 12:32:39 - INFO - server on http://localhost:3030/Airdnd
+11.10.2025, 12:32:45 - DEBUG - auth.service - login with phone: 0507962021
+11.10.2025, 12:32:45 - INFO - User phone login attempt: | 0507962021
+11.10.2025, 12:32:45 - INFO - user.service - getByPhone:  | 0507962021
+11.10.2025, 12:32:47 - ERROR - Failed to login with phone | Error: Phone number not registered
+11.10.2025, 12:35:15 - INFO - User phone login attempt: | 0547654321
+11.10.2025, 12:35:15 - DEBUG - auth.service - login with phone: 0547654321
+11.10.2025, 12:35:15 - INFO - user.service - getByPhone:  | 0547654321
+11.10.2025, 12:35:15 - INFO - /api/booking | GET |  | {}
+11.10.2025, 12:35:16 - INFO - /api/home | GET |  | {}
+11.10.2025, 12:35:22 - INFO - /api/home | GET |  | {}
+11.10.2025, 12:35:22 - INFO - /api/home | GET |  | {}
+11.10.2025, 12:35:30 - INFO - User phone login attempt: | 0547654321
+11.10.2025, 12:35:30 - DEBUG - auth.service - login with phone: 0547654321
+11.10.2025, 12:35:30 - INFO - user.service - getByPhone:  | 0547654321
+11.10.2025, 12:35:30 - INFO - /api/booking | GET |  | {}
+11.10.2025, 12:35:30 - INFO - /api/home | GET |  | {}
+11.10.2025, 12:36:32 - INFO - /api/home | GET |  | {}

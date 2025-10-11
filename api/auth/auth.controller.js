@@ -17,6 +17,25 @@ export async function login(req, res) {
     }
 }
 
+export async function loginWithPhone(req, res) {
+    const { phone } = req.body
+    try {
+        const user = await authService.loginWithPhone(phone)
+        const loginToken = authService.getLoginToken(user)
+
+        res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+        res.json(user)
+    } catch (err) {
+        logger.error('Failed to login with phone', err)
+        if (err.message === 'Phone number not registered') {
+            res.status(404).send({ err: err.message })
+        } else {
+            res.status(500).send({ err: 'Failed to login with phone' })
+        }
+    }
+}
+
+
 export async function signup(req, res) {
     try {
         const credentials = req.body

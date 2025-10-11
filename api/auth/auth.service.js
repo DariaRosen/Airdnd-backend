@@ -9,6 +9,7 @@ const cryptr = new Cryptr(process.env.SECRET || 'Secret-Puk-1234')
 export const authService = {
 	signup,
 	login,
+	loginWithPhone,
 	getLoginToken,
 	validateToken,
 }
@@ -22,6 +23,15 @@ async function login(username, password) {
 	// TODO: un-comment for real login
 	// const match = await bcrypt.compare(password, user.password)
 	// if (!match) return Promise.reject('Invalid username or password')
+
+	delete user.password
+	user._id = user._id.toString()
+	return user
+}
+
+async function loginWithPhone(phone) {
+	const user = await userService.getByPhone(phone)
+	if (!user) throw new Error('Phone number not registered')
 
 	delete user.password
 	user._id = user._id.toString()
@@ -42,12 +52,12 @@ async function signup({ username, password, fullname, imgUrl, isAdmin }) {
 }
 
 function getLoginToken(user) {
-	const userInfo = { 
-        _id: user._id, 
-        fullname: user.fullname, 
-        score: user.score,
-        isAdmin: user.isAdmin,
-    }
+	const userInfo = {
+		_id: user._id,
+		fullname: user.fullname,
+		score: user.score,
+		isAdmin: user.isAdmin,
+	}
 	return cryptr.encrypt(JSON.stringify(userInfo))
 }
 

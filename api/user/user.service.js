@@ -9,7 +9,8 @@ export const userService = {
   update,      // Update
   remove,      // Delete
   query,       // List
-  getByUsername
+  getByUsername,
+  getByPhone
 }
 
 async function query(filterBy = {}) {
@@ -166,4 +167,12 @@ function _buildCriteria(filterBy) {
   }
   if (filterBy.phone) criteria.phone = filterBy.phone
   return criteria
+}
+
+async function getByPhone(phone) {
+  logger.info('user.service - getByPhone: ', phone)
+  const collection = await dbService.getCollection('user')
+  // logger.info('collection: ', collection)
+  const user = await collection.findOne({ phone })
+  return user
 }
