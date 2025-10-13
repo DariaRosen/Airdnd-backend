@@ -4739,3 +4739,10 @@
 11.10.2025, 16:52:18 - ERROR - Failed to Login Invalid username or password
 11.10.2025, 16:52:18 - ERROR - Failed to Login Invalid username or password
 11.10.2025, 16:52:18 - INFO - /api/home | GET |  | {}
+13.10.2025, 18:51:37 - INFO - ✅ Server running on http://localhost:3030/Airdnd
+13.10.2025, 19:03:52 - INFO - /api/home | GET |  | {}
+13.10.2025, 19:03:52 - DEBUG - auth.service - login with username: undefined
+13.10.2025, 19:03:52 - DEBUG - auth.service - login with username: undefined
+13.10.2025, 19:03:54 - ERROR - Failed to Login Invalid username or password
+13.10.2025, 19:03:54 - ERROR - Failed to Login Invalid username or password
+13.10.2025, 19:03:54 - INFO - /api/home | GET |  | {}
