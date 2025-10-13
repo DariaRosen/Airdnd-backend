@@ -56,4 +56,10 @@ app.get(/^\/Airdnd(?!.*\.).*$/, (req, res) => {
 app.get('/', (req, res) => res.redirect('/Airdnd'))
 
 const PORT = process.env.PORT || 3030
-server.listen(PORT, () => logger.info(`server on http://localhost:${PORT}/Airdnd`))
+// server.listen(PORT, () => logger.info(`server on http://localhost:${PORT}/Airdnd`))
+server.listen(PORT, () => {
+  const base = process.env.NODE_ENV === 'production'
+    ? 'https://airdnd-backend-w11x.onrender.com'
+    : `http://localhost:${PORT}`
+  logger.info(`✅ Server running on ${base}/Airdnd`)
+})
