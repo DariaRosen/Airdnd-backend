@@ -4747,3 +4747,167 @@
 13.10.2025, 19:03:54 - ERROR - Failed to Login Invalid username or password
 13.10.2025, 19:03:54 - INFO - /api/home | GET |  | {}
 13.10.2025, 19:11:39 - INFO - ✅ Server running on http://localhost:3030/Airdnd
+13.10.2025, 19:13:02 - INFO - ✅ Server running on http://localhost:3030/Airdnd
+13.10.2025, 19:39:34 - INFO - /api/home | GET |  | {}
+13.10.2025, 19:39:34 - DEBUG - auth.service - login with username: undefined
+13.10.2025, 19:39:34 - DEBUG - auth.service - login with username: undefined
+13.10.2025, 19:39:36 - ERROR - Failed to Login Invalid username or password
+13.10.2025, 19:39:36 - ERROR - Failed to Login Invalid username or password
+13.10.2025, 19:39:36 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:04:33 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:04:33 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:04:33 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:04:33 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:04:33 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:04:34 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:06:30 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:06:30 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:06:30 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:06:30 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:06:30 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:06:30 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:07:02 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:07:02 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:07:02 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:07:02 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:07:03 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:07:03 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:16:45 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:16:45 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:16:45 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:16:45 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:16:45 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:16:45 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:23:34 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:23:34 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:23:34 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:25:56 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:25:56 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:25:56 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:25:56 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:25:57 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:25:57 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:29:54 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:29:54 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:29:54 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:29:54 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:29:55 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:29:55 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:30:52 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:30:52 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:30:52 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:30:52 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:30:53 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:30:53 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:31:02 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:31:02 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:31:02 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:31:02 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:31:02 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:31:02 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:41:48 - INFO - user.service - getByPhone:  | 0547654321
+13.10.2025, 20:41:48 - INFO - /api/booking | GET |  | {}
+13.10.2025, 20:41:48 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:41:51 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:41:51 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:41:51 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:41:51 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:41:51 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:41:51 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:41:55 - INFO - user.service - getByPhone:  | 0549876543
+13.10.2025, 20:41:56 - INFO - /api/booking | GET |  | {}
+13.10.2025, 20:41:56 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:42:12 - INFO - /api/home | GET |  | {}
+13.10.2025, 20:42:12 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:42:12 - DEBUG - auth.service - login with username: daria123
+13.10.2025, 20:42:13 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:42:13 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+13.10.2025, 20:42:13 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:35:29 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:35:29 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:35:29 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:35:30 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:35:31 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:35:31 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:41:14 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:41:14 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:41:14 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:41:15 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:41:15 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:41:16 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:41:34 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:41:34 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:41:34 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:41:35 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:41:35 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:41:35 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:43:04 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:43:05 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:43:05 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:43:05 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:43:05 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:43:05 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:43:08 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:43:08 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:43:08 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:43:08 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:43:08 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:43:08 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:44:48 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:44:48 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:44:48 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:44:48 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:44:48 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:44:48 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","imgUrl":"","favorites":[],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:49:01 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:49:01 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:49:01 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8d5"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:49:01 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:49:01 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:49:01 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8d5"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:52:51 - INFO - /api/home | GET |  | {}
+14.10.2025, 13:52:51 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:52:51 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 13:52:51 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8e9","68de67a2d26a1ea2ad78f8ea"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:52:52 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8e9","68de67a2d26a1ea2ad78f8ea"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 13:52:52 - INFO - /api/home | GET |  | {}
+14.10.2025, 14:23:59 - INFO - /api/home | GET |  | {}
+14.10.2025, 14:23:59 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 14:24:00 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8e9","68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 14:24:00 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 14:24:00 - INFO - /api/home | GET |  | {}
+14.10.2025, 14:24:00 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8e9","68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 14:24:10 - INFO - /api/home | GET |  | {"id":"68de67a2d26a1ea2ad78f8e7"}
+14.10.2025, 14:24:10 - INFO - /api/review | GET |  | {}
+14.10.2025, 14:24:10 - INFO - /api/review | GET |  | {}
+14.10.2025, 14:24:19 - INFO - /api/home | GET |  | {}
+14.10.2025, 14:24:19 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 14:24:19 - DEBUG - auth.service - login with username: daria123
+14.10.2025, 14:24:20 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8e9","68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6","68de67a2d26a1ea2ad78f8e7"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 14:24:19 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8e9","68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6","68de67a2d26a1ea2ad78f8e7"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+14.10.2025, 14:24:20 - INFO - /api/home | GET |  | {}
+14.10.2025, 14:24:23 - INFO - /api/home | GET |  | {}
+14.10.2025, 16:07:03 - INFO - /api/home | GET |  | {"id":"68de67a2d26a1ea2ad78f8d7"}
+14.10.2025, 16:07:04 - INFO - /api/review | GET |  | {}
+14.10.2025, 16:07:04 - INFO - /api/review | GET |  | {}
+15.10.2025, 8:52:14 - INFO - /api/home | GET |  | {"id":"68de67a2d26a1ea2ad78f8d7"}
+15.10.2025, 8:52:15 - INFO - /api/review | GET |  | {}
+15.10.2025, 8:52:16 - INFO - /api/review | GET |  | {}
+15.10.2025, 8:52:16 - INFO - /api/home | GET |  | {}
+15.10.2025, 8:52:16 - DEBUG - auth.service - login with username: daria123
+15.10.2025, 8:52:16 - DEBUG - auth.service - login with username: daria123
+15.10.2025, 8:52:17 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6","68de67a2d26a1ea2ad78f8e7"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+15.10.2025, 8:52:17 - INFO - /api/home | GET |  | {}
+15.10.2025, 8:52:17 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6","68de67a2d26a1ea2ad78f8e7"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+15.10.2025, 9:00:42 - INFO - /api/booking | GET |  | {}
+15.10.2025, 9:00:42 - INFO - /api/home | GET |  | {}
+15.10.2025, 9:00:47 - INFO - /api/home | GET |  | {}
+15.10.2025, 9:00:47 - DEBUG - auth.service - login with username: daria123
+15.10.2025, 9:00:47 - DEBUG - auth.service - login with username: daria123
+15.10.2025, 9:00:47 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6","68de67a2d26a1ea2ad78f8e7"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+15.10.2025, 9:00:48 - INFO - User login:  | {"_id":"68de5963d26a1ea2ad78f8b3","firstName":"Daria","lastName":"Rosen","username":"daria123","email":"daria@gmail.com","phone":"0547654321","favorites":["68de67a2d26a1ea2ad78f8ea","68de67a2d26a1ea2ad78f8e6","68de67a2d26a1ea2ad78f8e7"],"searching_history":[],"hosting":0,"avatar":"https://res.cloudinary.com/dool6mmp1/image/upload/v1758109525/woman2_kyn99x.jpg","createdAt":1689220800000}
+15.10.2025, 9:00:48 - INFO - /api/home | GET |  | {}
+15.10.2025, 9:00:58 - INFO - /api/booking | GET |  | {}
+15.10.2025, 9:00:58 - INFO - /api/home | GET |  | {}
+15.10.2025, 9:01:04 - INFO - /api/booking | GET |  | {}
+15.10.2025, 9:01:10 - INFO - /api/booking | GET |  | {}
